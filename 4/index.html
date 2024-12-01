@@ -9,7 +9,9 @@
 <body>
     <header>
         <nav>
-            <div class="logo">Affix Orthotics</div>
+            <div class="logo">
+                <img src="logo.png" alt="Affix Orthotics Logo">
+            </div>
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
@@ -17,6 +19,7 @@
                 <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="testimonials.html">Testimonials</a></li>
                 <li><a href="faq.html">FAQ</a></li>
+                <li><a href="cart.html">Cart</a></li>
             </ul>
         </nav>
     </header>
@@ -49,6 +52,15 @@
     <footer>
         <p>&copy; 2023 Affix Orthotics. All rights reserved.</p>
     </footer>
+
+    <!-- Modal for Add to Cart Confirmation -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 </html>

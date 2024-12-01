@@ -7,7 +7,7 @@ function addToCart(productName, price) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     cart.push({ productName, price });
     localStorage.setItem('cart', JSON.stringify(cart));
-    alert(`${productName} has been added to your cart.`);
+    showModal(`${productName} has been added to your cart.`);
 }
 
 function bulkPurchase(productName) {
@@ -17,7 +17,7 @@ function bulkPurchase(productName) {
         let totalPrice = price * quantity;
         addToCart(`${productName} (Bulk x${quantity})`, totalPrice);
     } else {
-        alert('Invalid quantity.');
+        showModal('Invalid quantity.');
     }
 }
 
@@ -26,19 +26,33 @@ function loadCart() {
     let cartItemsContainer = document.querySelector('.cart-items');
     let cartTotal = 0;
 
-    cartItemsContainer.innerHTML = '';
-    cart.forEach(item => {
-        let cartItem = document.createElement('div');
-        cartItem.classList.add('cart-item');
-        cartItem.innerHTML = `
-            <span>${item.productName}</span>
-            <span>₹${item.price.toFixed(2)}</span>
-        `;
-        cartItemsContainer.appendChild(cartItem);
-        cartTotal += item.price;
-    });
+    if (cartItemsContainer) {
+        cartItemsContainer.innerHTML = '';
+        cart.forEach(item => {
+            let cartItem = document.createElement('div');
+            cartItem.classList.add('cart-item');
+            cartItem.innerHTML = `
+                <span>${item.productName}</span>
+                <span>₹${item.price.toFixed(2)}</span>
+            `;
+            cartItemsContainer.appendChild(cartItem);
+            cartTotal += item.price;
+        });
 
-    document.getElementById('cart-total').innerText = cartTotal.toFixed(2);
+        document.getElementById('cart-total').innerText = cartTotal.toFixed(2);
+    }
+}
+
+function showModal(message) {
+    let modal = document.getElementById('cart-modal');
+    let modalMessage = document.getElementById('modal-message');
+    modalMessage.innerText = message;
+    modal.style.display = 'block';
+}
+
+function closeModal() {
+    let modal = document.getElementById('cart-modal');
+    modal.style.display = 'none';
 }
 
 function checkout() {
