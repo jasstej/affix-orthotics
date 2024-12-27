@@ -1,0 +1,244 @@
+/* filepath: style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation li {
+    margin: 0;
+}
+
+.navigation a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.navigation a:hover {
+    background-color: #f0f0f0;
+}
+
+.products-list {
+    padding: 2rem;
+    text-align: center;
+}
+
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 220px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.product-card h2 {
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.product-card .price {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.view-button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.view-button:hover {
+    background-color: #555;
+}
+
+.product-detail {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.product-images {
+    flex: 1;
+}
+
+.product-images img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.product-info {
+    flex: 1;
+    max-width: 600px;
+}
+
+.product-info h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.product-info .price {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.product-info .description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.product-info .sizes,
+.product-info .weights {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.cart-item button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background-color: #ff1a1a;
+}
+
+.cart-total {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+/* Add this to your existing CSS file */
+
+.modal-options {
+    margin-top: 1rem;
+}
+
+.modal-options button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.modal-options button:hover {
+    background-color: #555;
+}

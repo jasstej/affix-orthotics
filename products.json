@@ -1,0 +1,226 @@
+[
+    {
+        "name": "Clavicle Brace",
+        "code": "CB-01",
+        "price": 1500,
+        "images": ["CB-01_1.jpg", "CB-01_2.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Humerus Brace",
+        "code": "HB-01",
+        "price": 2000,
+        "images": ["HB-01_1.jpg", "HB-01_2.jpg", "HB-01_3.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Elastic Wrist Support",
+        "code": "WS-P1",
+        "price": 800,
+        "images": ["WS-P1_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Tibla Brace",
+        "code": "TB-01",
+        "price": 1200,
+        "images": ["TB-01_1.jpg", "TB-01_2.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Silicone Foot Insole",
+        "code": "SI-01",
+        "price": 800,
+        "images": ["SI-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Silicone Foot Arch",
+        "code": "SA-01",
+        "price": 900,
+        "images": ["SA-01_1.jpg", "SA-01_2.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Heel Cushion",
+        "code": "HC-01",
+        "price": 500,
+        "images": ["HC-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Skin Traction",
+        "code": "TR-01",
+        "price": 1400,
+        "images": ["TR-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Ankle Traction",
+        "code": "TR-02",
+        "price": 1500,
+        "images": ["TR-02_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Pelvic Traction",
+        "code": "PT-01",
+        "price": 1600,
+        "images": ["PT-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Exercise Ball",
+        "code": "EB-01",
+        "price": 600,
+        "images": ["EB-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Weight cuff",
+        "code": "WC-01",
+        "price": 400,
+        "images": ["WC-01_1.jpg"],
+        "weights": ["1kg", "2kg", "5kg"]
+    },
+    {
+        "name": "Finger Exerciser",
+        "code": "FE-01",
+        "price": 300,
+        "images": ["FE-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Bed Rest",
+        "code": "BR-01",
+        "price": 1000,
+        "images": ["BR-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Commode Chair",
+        "code": "CC-01",
+        "price": 2500,
+        "images": ["CC-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Commode Stool",
+        "code": "CS-02",
+        "price": 1800,
+        "images": ["CS-02_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Walking Stick with Elbow Support",
+        "code": "WS-01",
+        "price": 1300,
+        "images": ["WS-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Crutches",
+        "code": "CR-01",
+        "price": 2200,
+        "images": ["CR-01_1.jpg", "CR-01_2.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Foldable Walker",
+        "code": "FW-01",
+        "price": 3000,
+        "images": ["FW-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Walking Stick",
+        "code": "WS-02",
+        "price": 900,
+        "images": ["WS-02_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Walking Stick 3 Leg",
+        "code": "WS-03",
+        "price": 1000,
+        "images": ["WS-03_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Walking Stick 4 Leg",
+        "code": "WS-04",
+        "price": 1100,
+        "images": ["WS-04_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Thermal Hot Water Bottle",
+        "code": "THWB-01",
+        "price": 700,
+        "images": ["THWB-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Back Rest Universal",
+        "code": "BRU-01",
+        "price": 1400,
+        "images": ["BRU-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "STOCKS AVAILABLE AT",
+        "code": "STA-01",
+        "price": 0,
+        "images": [],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Heating Pad",
+        "code": "HP-01",
+        "price": 600,
+        "images": ["HP-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Insole with Foot Arch",
+        "code": "IFA-01",
+        "price": 800,
+        "images": ["IFA-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Cervical Collar",
+        "code": "CC-01",
+        "price": 1800,
+        "images": ["CC-01_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Cervical Collar Hard",
+        "code": "CC-02",
+        "price": 2000,
+        "images": ["CC-02_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Philadelphia Collar",
+        "code": "CC-03",
+        "price": 2200,
+        "images": ["CC-03_1.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Cervical Pillow",
+        "code": "PL-01",
+        "price": 1500,
+        "images": ["PL-01_1.jpg", "PL-01_2.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Arm Strap",
+        "code": "PA-03",
+        "price": 500,
+        "images": ["PA-03_1.jpg", "PA-03_2.jpg"],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+    }
+]

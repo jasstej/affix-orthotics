@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight cuff - Affix Orthotics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Affix Orthotics Logo">
+            </div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-detail">
+            <div class="product-images">
+                <img src="images/WC-01_1.jpg" alt="Weight cuff">
+            </div>
+            <div class="product-info">
+                <h1>Weight cuff</h1>
+                <p class="price">₹400</p>
+                <p class="description">This is a detailed description of Weight cuff. It includes all the features, specifications, and benefits of the product.</p>
+                
+                <p class="weights">Available Weights: 
+                    <select id="weight-select">
+                        <option value="1kg">1kg</option><option value="2kg">2kg</option><option value="5kg">5kg</option>
+                    </select>
+                </p>
+                <button class="cta-button" onclick="addToCart('WC-01')">Add to Cart</button>
+                <button class="cta-button" onclick="bulkPurchase('WC-01')">Bulk Purchase</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Affix Orthotics. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal for Add to Cart Confirmation -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <p id="modal-message"></p>
+            <button class="cta-button" onclick="goToCart()">Go to Cart</button>
+            <button class="cta-button" onclick="continueShopping()">Continue Shopping</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
